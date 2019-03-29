@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Mi Escuela</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
         .parallax {
@@ -87,7 +88,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#Us">Nosotros<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Nuestro Personal</a>
@@ -104,7 +105,8 @@
 <br>
 <div class="container">
   <div class="row">
-    <div class="parallax col-md-12">
+    <div class="parallax col-md-12" id="Us">
+      <h1>Nosotros</h1>
     </div>
   </div>
   <br>
@@ -160,64 +162,44 @@
       </div>
   </div>
   <br>
-  <div class="row">
+  <div class="row" id="OurPersonal">
     <div class="parallax col-md-12">
+      <h1>Nuestro Personal</h1>
     </div>
   </div>
   <br>
+
   <div class="row">
     <div class="card-group">
       <div class="card text-white" style="background-color: #339966;">
         <img src="https://picsum.photos/100/100/?random" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Marcos Perez Jimenez</h5>
+
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-            </label>
+
+          <div class="card-footer bg-transparent border-success">
+            <a class="btn btn-primary" href="#" role="button"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
       <div class="card text-white" style="background-color: #339966;">
         <img src="https://picsum.photos/100/100/?random" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Juan Vicente Gomez</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-            </label>
+          <div class="card-footer bg-transparent border-success">
+            <a class="btn btn-primary" href="#" role="button"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
       <div class="card text-white" style="background-color: #339966;">
         <img src="https://picsum.photos/100/100/?random" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Jose Antonio Paez</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-            </label>
+          <div class="card-footer bg-transparent border-success">
+            <a class="btn btn-primary" href="#" role="button"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
