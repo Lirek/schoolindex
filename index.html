@@ -12,13 +12,17 @@
           background-image: url("https://picsum.photos/600/300/?random");
 
           /* Set a specific height */
-          min-height: 500px;
+          min-height: 300px;
 
           /* Create the parallax scrolling effect */
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+
+
+          width: 100%;
+          left: 0;
         }
 
         body {
@@ -31,6 +35,13 @@
                 background-size: cover;
               }
 
+              .cn {
+                position: absolute;
+                top: 50%; left: 50%;
+                transform: translate(-50%,-50%);
+                width: 500px;
+                height: 200px;
+              }
 </style>
 
 </head>
@@ -103,10 +114,23 @@
   </div>
 </nav>
 <br>
-<div class="container">
-  <div class="row">
+<div class="container-fluid">
+  <div class="row align-items-center">
     <div class="parallax col-md-12">
-      <h1>Nosotros</h1>
+      <div class="cn">
+        <div class="card text-center text-withe" style="background-color: #86A3C3;">
+            <div class="card-header">
+              Nosotros
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+        </div>
+      </div>
+
     </div>
   </div>
   <br>
@@ -164,7 +188,21 @@
   <br>
   <div class="row" id="OurPersonal">
     <div class="parallax col-md-12">
-      <h1>Nuestro Personal</h1>
+      <div class="cn">
+        <div class="card text-center text-withe" style="background-color: #86A3C3;">
+            <div class="card-header">
+              Nuestro Personal
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+        </div>
+      </div>
+
+    </div>
     </div>
   </div>
   <br>
@@ -207,7 +245,21 @@
   <br>
   <div class="row" id="OurInstitution">
     <div class="parallax col-md-12">
-      <h1>Nuestra Institucion</h1>
+      <div class="cn">
+        <div class="card text-center text-withe" style="background-color: #86A3C3;">
+            <div class="card-header">
+              Nuestra Institucion
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+        </div>
+      </div>
+
+    </div>
     </div>
   </div>
   <br>
@@ -305,7 +357,10 @@
 <br>
 <br>
 
-<footer class="pt-4 my-md-5 pt-md-5 border-top" style="background-color: #7268A6;">
+<footer class="pt-4 my-md-5 pt-md-5 border-top" style="background-color: #7268A6;
+clear:both;
+height:150px;
+margin-top: -150px;">
     <div class="row">
       <div class="col-12 col-md">
         <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
